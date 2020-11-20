@@ -95,18 +95,8 @@ class LCAJava
 		}
 	}
 
-	public static void main(String[] args)
+/*	public static void main(String[] args)
 	{
-	    /* Construct below tree
-	          1
-	        /   \
-	       /     \
-	      2          3
-	       \     / \
-	        4   5   6
-	           / \
-	          7   8
-	    */
 
 		Node root = new Node(1);
 		root.left = new Node(2);
@@ -123,8 +113,5 @@ class LCAJava
 		findLCA(root, root.right.left.left, root.right.left.left);
 		findLCA(root, root.right.left.left, root.right.left);
 		findLCA(root, root.left, root.right.left);
-
-        
-
-	}
+	}*/
 }
